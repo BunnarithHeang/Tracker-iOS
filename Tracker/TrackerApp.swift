@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import Supabase
 
 @main
-struct TrackerApp: App {
+struct TrackerApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()
